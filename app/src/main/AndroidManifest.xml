@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChromeDino">
         <activity
-            android:name=".TreatmentPage"
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
             android:exported="false" />
         <activity
             android:name=".Dashboard"

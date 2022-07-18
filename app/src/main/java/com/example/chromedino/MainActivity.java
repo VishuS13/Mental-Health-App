@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static int Splash_Screen=3000;
 
-     Animation topanim,bottomanim;
+     Animation topanim;
      ImageView logo;
 
     @Override
@@ -25,13 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         topanim= AnimationUtils.loadAnimation(this,R.anim.top_animation);
-        bottomanim= AnimationUtils.loadAnimation(this,R.anim.bottom_animation);
-
-
-
         logo=findViewById(R.id.logo);
-
-
         logo.setAnimation(topanim);
 
 
